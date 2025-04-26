@@ -2,6 +2,10 @@
 [![Actions Status](https://github.com/paalso/layout-designer-bootstrap-project-59/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/paalso/layout-designer-bootstrap-project-59/actions)
 
 
+## Level 3 project on the [Hexlet](https://ru.hexlet.io/) program [Layout Designer](https://ru.hexlet.io/programs/professional-layout).
+### [Мессенджер «Hexlet Chat» («Hexlet Chat» Messenger)](https://ru.hexlet.io/projects/59/members/45705)
+
+
 #### Some notes on the project
 
 Current node version
