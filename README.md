@@ -6,7 +6,7 @@
 ### [Мессенджер «Hexlet Chat» («Hexlet Chat» Messenger)](https://ru.hexlet.io/projects/59/members/45705)
 
 
-#### Some notes on the project
+### Some notes on the project
 
 Current node version
 ```
@@ -40,7 +40,7 @@ Installing html and css letters
 - stylelint-config-rational-order
 - stylelint-scss
 ```
-~/Projects/layout-designer-bootstrap-project-59 (main)$ npm install --save-dev htmlhint stylelint stylelint-config-standard stylelint-order stylelint-config-rational-order stylelint-scss
+~/Projects/layout-designer-bootstrap-project-59 (main)$ npm install --save-dev htmlhint stylelint stylelint-config-standard stylelint-order stylelint-config-rational-order stylelint-scss pug-lint
 ```
 
 Installing Bootstrap
@@ -61,3 +61,6 @@ Installing Gulp
 ```
 ~/Projects/layout-designer-bootstrap-project-59 (main)$ npm install --save-dev gulp gulp-sass sass gulp-pug gulp-svg-sprite gulp-concat
 ```
+
+### Useful links
+[npm registry](https://www.npmjs.com/)

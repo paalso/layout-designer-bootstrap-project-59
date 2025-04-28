@@ -1,0 +1,21 @@
+{
+  "requireLowerCaseTags": true,
+  "requireLowerCaseAttributes": true,
+  "requireClassLiteralsBeforeIdLiterals": true,
+  "requireIdLiteralsBeforeAttributes": true,
+  "disallowDuplicateAttributes": true,
+  "disallowSpacesInsideAttributeBrackets": true,
+  "requireStrictEqualityOperators": true,
+  "disallowSelfClosing": false,
+  "disallowEmptyAttributes": false,
+  "disallowMultipleLineBreaks": true,
+  "disallowMixedSpacesAndTabs": true,
+  "disallowInlineStyles": true,
+  "disallowInlineScripts": true,
+  "requireTrailingComma": true,
+  "indentation": 2,
+  "tagNameLowercase": true,
+  "attributeNameLowercase": true,
+  "requireAltAttribute": true,
+  "disallowComments": false
+}

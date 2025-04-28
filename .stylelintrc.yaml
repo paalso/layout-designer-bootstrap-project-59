@@ -1,6 +1,5 @@
 extends:
   - stylelint-config-standard-scss
-  - stylelint-config-rational-order
 
 plugins:
   - stylelint-scss
@@ -8,8 +7,61 @@ plugins:
 
 rules:
   declaration-empty-line-before: null
-  plugin/rational-order:
-    - true
-    - empty-line-between-groups: true
   at-rule-no-unknown: null
   scss/at-rule-no-unknown: true
+
+  order/order:
+    - [
+        custom-properties,
+        declarations,
+        rules,
+        at-rules
+      ]
+
+  order/properties-order:
+    - properties:
+        - display
+        - position
+        - top
+        - right
+        - bottom
+        - left
+        - z-index
+        - flex
+        - flex-grow
+        - flex-shrink
+        - flex-basis
+        - align-items
+        - justify-content
+        - width
+        - min-width
+        - max-width
+        - height
+        - min-height
+        - max-height
+        - padding
+        - padding-top
+        - padding-right
+        - padding-bottom
+        - padding-left
+        - margin
+        - margin-top
+        - margin-right
+        - margin-bottom
+        - margin-left
+        - font
+        - font-family
+        - font-size
+        - font-weight
+        - line-height
+        - text-align
+        - color
+        - background
+        - background-color
+        - border
+        - border-radius
+        - box-shadow
+        - opacity
+        - transition
+        - transform
+      severity: warning
