@@ -1,2 +1,3 @@
 lint:
-	npx stylelint ./app/scss/**/*.scss
+		npx stylelint ./app/**/*.scss
+
